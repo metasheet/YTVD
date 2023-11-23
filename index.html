@@ -8,9 +8,11 @@
 </head>
 <body>
     <h2>YouTube Video Downloader</h2>
-    <input type="text" id="videoUrl" placeholder="Paste YouTube video link">
-    <button onclick="downloadVideo()">Download Video</button>
+    <input type="text" id="videoId" placeholder="Enter YouTube video ID">
+    <button onclick="getDownloadLink()">Get Download Link</button>
+    <p id="downloadLink"></p>
 
+    <script src="https://apis.google.com/js/api.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
