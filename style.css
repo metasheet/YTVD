@@ -18,3 +18,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+#downloadLink {
+    margin-top: 20px;
+}
